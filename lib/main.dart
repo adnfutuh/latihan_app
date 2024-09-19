@@ -4,6 +4,10 @@ import 'package:latihan_app/butoon/elevated_button.dart';
 import 'package:latihan_app/butoon/icon_button.dart';
 import 'package:latihan_app/butoon/outline_button.dart';
 import 'package:latihan_app/butoon/text_button.dart';
+import 'package:latihan_app/listview/listview.dart';
+import 'package:latihan_app/listview/navigation/navigation_push.dart';
+
+import 'listview/dinamis/list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -37,7 +41,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const DropdownButtonExample(),
+      home: FirstScreen(),
     );
   }
 }
