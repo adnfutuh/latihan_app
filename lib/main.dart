@@ -5,7 +5,10 @@ import 'package:latihan_app/butoon/icon_button.dart';
 import 'package:latihan_app/butoon/outline_button.dart';
 import 'package:latihan_app/butoon/text_button.dart';
 import 'package:latihan_app/listview/listview.dart';
-import 'package:latihan_app/listview/navigation/navigation_push.dart';
+import 'package:latihan_app/navigation/navigation_push.dart';
+import 'package:latihan_app/responsive_layout/layout_builder/layout_builder.dart';
+import 'package:latihan_app/responsive_layout/media_query/media_query.dart';
+import 'package:latihan_app/responsive_layout/perbedaan.dart';
 
 import 'listview/dinamis/list.dart';
 
@@ -41,7 +44,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: FirstScreen(),
+      home: LayoutBuilderExample(),
     );
   }
 }
