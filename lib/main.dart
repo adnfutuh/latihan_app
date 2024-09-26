@@ -4,6 +4,7 @@ import 'package:latihan_app/butoon/elevated_button.dart';
 import 'package:latihan_app/butoon/icon_button.dart';
 import 'package:latihan_app/butoon/outline_button.dart';
 import 'package:latihan_app/butoon/text_button.dart';
+import 'package:latihan_app/imput_widget/text_field/text_field_controller.dart';
 import 'package:latihan_app/listview/listview.dart';
 import 'package:latihan_app/navigation/navigation_push.dart';
 import 'package:latihan_app/responsive_layout/layout_builder/layout_builder.dart';
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LayoutBuilderExample(),
+      home: TextFieldController(),
     );
   }
 }
